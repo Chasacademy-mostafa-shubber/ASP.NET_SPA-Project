@@ -30,7 +30,7 @@ Detta är ett skolprojket som handlar om ett spel där en användare spelar mot 
 * Register: Skapa ny användare
 * Login: Inloggning med användarnamn och lösenord
 
-### Tabeller i databasen
+### Databasdiagram
 ![SPA-Databas-Diagram](https://github.com/Chasacademy-mostafa-shubber/ASP.NET_SPA-Project/assets/113859196/7275ca5c-70f7-43f0-abb3-e5855b1aec6c)
 
 
