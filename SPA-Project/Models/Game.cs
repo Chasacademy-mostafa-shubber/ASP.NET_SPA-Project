@@ -10,5 +10,8 @@ namespace SPA_Project.Models
         public int Chances { get; set; }
         public bool ActiveGame { get; set; }
         public int UserId { get; set; }
+
+        [ForeignKey("UserId")]
+        public User User { get; set; }
     }
 }

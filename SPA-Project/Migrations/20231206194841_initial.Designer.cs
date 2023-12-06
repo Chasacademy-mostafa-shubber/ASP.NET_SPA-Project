@@ -11,7 +11,7 @@ using SPA_Project.Data;
 namespace SPA_Project.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231201001406_initial")]
+    [Migration("20231206194841_initial")]
     partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -47,6 +47,8 @@ namespace SPA_Project.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("GameId");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Games");
                 });
@@ -129,6 +131,17 @@ namespace SPA_Project.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("UserProfiles");
+                });
+
+            modelBuilder.Entity("SPA_Project.Models.Game", b =>
+                {
+                    b.HasOne("SPA_Project.Models.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("SPA_Project.Models.HighScore", b =>
