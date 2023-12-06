@@ -18,9 +18,17 @@ Detta är ett skolprojket som handlar om ett spel där en användare spelar mot 
 * UserProfile
 
 ### Controller
-* Account
-* Game
-* User
+* Account: Används för registrering, inloggning och utloggning
+* Game: Används för att spela
+* User: Används för att visa information om användaren i profilsidan och highscoresidan
+
+### Sidor
+* Gamejs: Sidan där man spelar
+* UserProfile: Visar information om hur många gånger användaren spelade, vunnit och förlorade
+* UserHighScore: Visar användarens totala poäng
+* ActiveUser: Får tillgång till spel, profil och highscoresidan om användaren är inloggad. Finns en knapp där användaren loggar ut.
+* Register: Skapa ny användare
+* Login: Inloggning med användarnamn och lösenord
 
 ### Tabeller i databasen
 ![SPA-Databas-Diagram](https://github.com/Chasacademy-mostafa-shubber/ASP.NET_SPA-Project/assets/113859196/7275ca5c-70f7-43f0-abb3-e5855b1aec6c)
