@@ -1,4 +1,4 @@
-### Student: Mostafa Shubber
+### Utvecklare: Mostafa Shubber
 
 ### Info om projektet
 Detta är ett skolprojket som handlar om ett spel där en användare spelar mot datorn. Båda slänger fram ett slumpmässigt tal, den som får högre siffra får en poäng. Den som får högst poäng vinner spelet.
