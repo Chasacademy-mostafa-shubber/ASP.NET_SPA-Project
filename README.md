@@ -20,10 +20,10 @@ Detta är ett skolprojket som handlar om ett spel där en användare spelar mot 
 ### Controller
 * Account: Används för registrering, inloggning och utloggning
 * Game: Används för att spela
-* User: Används för att visa information om användaren i profilsidan och highscoresidan
+* User: Används för att visa information i profilsidan och highscoresidan
 
 ### Sidor
-* Gamejs: Sidan där man spelar
+* Game: Sidan där man spelar
 * UserProfile: Visar information om hur många gånger användaren spelade, vunnit och förlorade
 * UserHighScore: Visar användarens totala poäng
 * ActiveUser: Får tillgång till spel, profil och highscoresidan om användaren är inloggad. Finns en knapp där användaren loggar ut.
